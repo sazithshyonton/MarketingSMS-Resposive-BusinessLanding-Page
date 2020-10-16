@@ -1,0 +1,211 @@
+/* font-family: 'Open Sans', sans-serif;*/
+
+/*font-family: 'Raleway', sans-serif;*/
+
+html {
+	scroll-behavior: smooth;
+}
+/*Header Start */
+
+.header {
+	font-family: 'Open Sans', sans-serif;
+}
+.menu ul li a {
+	font-size: 18px;
+	color: #404040 !important;
+}
+.menu ul li a::after {
+	content: '';
+	display: block;
+	width: 0;
+	height: 3px;
+	background-color: #404040;
+	transition: width .3s;
+}
+.menu ul li a:hover::after {
+	width: 80%;
+}
+.btn_header {
+	padding: 6px 15px;
+	color: #fff;
+	border-radius: 25px;
+	background-color: #7f1a38;
+}
+.btn_header:hover {
+	border: 2px solid #7f1a38;
+	color: #7f1a38;
+	background-color: transparent;
+}
+/*Header End */
+
+/*Banner start */
+
+.banner {
+	padding: 80px 0;
+	background-image: url(../img/bannerBackground.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #ffffff;
+}
+.banner_content {
+	padding: 80px 0 60px;
+}
+.banner_content h1 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+}
+.banner_content p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-style: italic;
+}
+form {
+	padding: 10px 15px;
+	background-color: #3d1917;
+	opacity: 0.7;
+}
+form p {
+	font-size: 12px;
+	font-style: italic;
+	word-spacing: -1px;
+}
+.form_custom {
+	padding: 6px 15px;
+	height: calc(3rem+2px) !important;
+}
+.btn_custom {
+	font-family: 'Open Sans', sans-serif;
+	width: 100%;
+	font-weight: 700;
+	padding: 6px 40px;
+	background-color: #ae2c52;
+	color: #fff;
+	font-size: 18px;
+	height: calc(3rem+2px) !important;
+}
+.btn_custom:hover {
+	color: #fff;
+	background-color: #db435d;
+}
+/*Banner End */
+
+/*Features start*/
+
+.features {
+	padding: 80px 0;
+	font-family: 'Open Sans', sans-serif;
+}
+.content i {
+	font-size: 50px;
+	margin-bottom: 25px;
+}
+.content h4 {
+	margin-bottom: 25px;
+}
+/*Features end*/
+
+/*About start*/
+
+.about {
+	padding: 80px 0;
+	font-family: 'Open Sans', sans-serif;
+	color: #404040;
+	background-color: #f9f9f9;
+}
+.about_content h1 {
+	font-size: 48px;
+	font-weight: 300;
+	margin-bottom: 55px;
+}
+.about_content p {
+	font-weight: 300;
+	font-size: 15px;
+	margin-bottom: 55px;
+}
+.btn_custom_about {
+	padding: 4px 40px;
+	font-weight: 700;
+	font-size: 20px;
+	text-transform: uppercase;
+	border-radius: 15px;
+	border: 2px solid #7f1a38;
+	transition: all 0.4s;
+}
+.btn_custom_about:hover {
+	background-color: #7f1a38;
+	color: #fff;
+}
+/*About end*/
+
+/*Call start*/
+
+.call {
+	font-family: 'Open Sans', sans-serif;
+	padding: 80px 0;
+	background-color: #32383d;
+	color: #fff;
+}
+.call_content h3 {
+	font-size: 32px;
+}
+.btn_custom_call {
+	padding: 6px 30px;
+	border: 2px solid #fff;
+	color: #fff;
+	border-radius: 15px;
+	font-weight: 700;
+}
+.btn_custom_call:hover {
+	background-color: #fff;
+	color: #32383d;
+}
+/*Call end*/
+
+/*Slider end*/
+
+.slider {
+	padding: 80px 0 120px;
+	background-color: #09bbdb;
+}
+.cid {
+	bottom: -70px;
+}
+.cid li {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	background-color: transparent;
+	bottom: -130px;
+	transition: 0.1s ease-out;
+}
+.cid li:hover {
+	background-color: #fff;
+	border: 0;
+}
+.cid .active {
+	opacity: 1;
+	background-color: #fff;
+}
+.slider_content i {
+	font-size: 30px;
+	margin-bottom: 35px;
+	color: #117486;
+}
+.slider_content p {
+	color: #fff;
+	font-style: italic;
+	font-size: 20px;
+}
+/*Slider end*/
+
+/*Footer start*/
+
+.footer {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	padding: 60px 0;
+}
+/*Footer end*/
